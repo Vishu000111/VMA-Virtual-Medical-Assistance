@@ -1,0 +1,45 @@
+
+body {
+  margin:0;
+  padding: 0;
+}
+
+.appoint-form {
+  background: url(images/appoint.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.appoint-form form{
+  background: #8a00daa2;
+  margin: auto;
+  border: 5px solid #b82afa;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #353535;
+  width: 40vw;
+  padding: 50px;
+  font-size: 20px;
+  color: #f0f0f0;
+}
+
+.appoint-inp {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #b82afa;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.appoint-form input[type="radio"]{
+  margin: auto 15px;
+}
+
+#btn{
+  cursor: pointer;
+  color: #353535;
+  font-weight: 600;
+}

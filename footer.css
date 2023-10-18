@@ -1,0 +1,127 @@
+footer *{
+    font-size: 20px;
+    color: #ffffff;
+    outline:none !important;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background: #535353;
+    min-height: 60vh;
+    font-family: Montserrat, 'serrif';
+    padding: 30px 20px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer hr{
+    width: 90%;
+    border: .8px solid #b1afaf;
+    margin: 20px auto;
+    background: #b1afaf;
+}
+
+footer .newsletter{
+    width: 90%;
+    margin: 20px auto;
+}
+
+footer .newsletter .sbs-nws{
+    float: right;
+    margin-bottom: 20px;
+}
+
+footer .sbs-nws .email{
+    margin-right: 0;
+    margin-left: 10px;
+    color: #535353;
+    height: 30px;
+    padding: 5px 15px;
+    border: 1px solid #8206e8;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+footer .sbs-nws .submit{
+    margin-left: -5px;
+    background: #8206e8;
+    font-size: 22px;
+    padding: 7px 25px;
+    border: 1px solid #8206e8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer .sbs-nws .submit:hover{
+    cursor: pointer;
+    background: #a02bff;
+}
+
+footer .footer_section{
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2em;
+    width: 100%;
+}
+
+footer .footer_section li a{
+    line-height: 32px;
+}
+
+footer .footer_section .sec1 li a i{
+    color: #ffffff;
+    font-size: 1.6em;
+    transition: 0.5s;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+footer .footer_section li a:hover{
+    font-size: 20.3px;
+    color: #f1cff8;
+}
+
+footer .social_media .sci{
+    display: flex;
+    margin: 20px;
+}
+
+footer .sec1{
+    width: 23vw;
+    text-align: center;
+    margin:5px auto;
+}
+
+footer .sec1 .tag{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 720px) {
+  footer .sec1{
+    width: 75vw;
+    text-align: center;
+    margin:3px auto;
+}
+footer .sbs-nws .email{
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 3px 5px;
+}
+footer .sbs-nws .submit{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 6.2px 15px;
+}
+}

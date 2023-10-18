@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="bg" class="head">
+      <nav class="navbar">
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+          </a>
+        </span>
+
+        <ul class="navbar-nav">
+          <li><a href="signup.html">Signup</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="firstaid.html">First Aid</a>
+        <a href="">Appointment</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+
+        <a href="contact.html">Contact</a>
+      </div>
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="firstaid.html">First Aid</a>
+        <a href="">Appointment</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div id="main">
+        <p class="heading" style="margin-left: 30px">
+          Virtual Doctor <br />
+          Appointment System
+        </p>
+        <p class="sbheading" style="margin-left: 30px">
+          The Online Medical services
+        </p>
+      </div>
+    </div>
+
+    <div class="main-content"></div>
+
+    <script>
+      function openSlideMenu() {
+        document.getElementById("side-menu").style.width = "250px";
+      }
+      function closeSlideMenu() {
+        document.getElementById("side-menu").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

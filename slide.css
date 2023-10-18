@@ -1,0 +1,102 @@
+
+.what-user-says{
+    padding: 0;
+}
+
+.input-leftcontainer {
+  background: #929292;
+  height: 550px;
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+  position: relative;
+}
+.input-leftcontainer .imgban {
+  height: 550px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  transition: all ease-in-out 500ms;
+}
+.input-leftcontainer #imgban3 {
+  height: 550px;
+  width: 100vw;
+  margin: 0;
+  background: #a7a7a7;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.input-leftcontainer #imgban2 {
+  height: 550px;
+  width: 100vw;
+  margin: 0;
+  background: #a7a7a7;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.input-leftcontainer #imgban1 {
+  height: 550px;
+  width: 100vw;
+  margin: 0;
+  background: #a7a7a7;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.imgbanbtn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 4px;
+  position: absolute;
+  top: 260px;
+  z-index: 2000;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.imgbanbtn:hover {
+  opacity: 0.9;
+}
+.imgbanbtn-prev {
+    margin-left: 50px;
+  background-image: url(images/left.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.imgbanbtn-next {
+  margin-right: 70px;
+  right: 0px;
+  background-image: url(images/right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.user-ex-img {
+  height: 250px;
+  width: 250px;
+  border: 5px solid #a340ff;
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.user-ex-txt{
+  margin-right: 150px;
+}
+
+.user-name{
+  font-size: 50px;
+  text-shadow: 1px 1px 1px #797979;
+  color: #a340ff;
+  margin-bottom: 50px;
+}
+
+.user-text{
+  font-size: 28px;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
